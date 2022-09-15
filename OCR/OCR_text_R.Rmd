@@ -38,7 +38,7 @@ library(magrittr)
 
 ```{r png_to_pdf}
 # можем читать и отличный от PNG формат
-png_to_pdf <- magick::image_read("SAVE_20220912_084051.jpg")
+png_to_pdf <- magick::image_read("Kaz_dict.jpg")
 magick::image_write(image = png_to_pdf, format = "pdf", path = "png_to_pdf.pdf")
 png_to_pdf
 ```
